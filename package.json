@@ -26,5 +26,8 @@
     "presets": [
       "es2015"
     ]
+  },
+  "dependencies": {
+    "npm": "^5.7.1"
   }
 }
