@@ -42,19 +42,21 @@ header {
 	padding: 0.5%;
 }
 
+.main, #tagline {
+	width: 70%;
+	margin: 0 auto;
+}
+
 #tagline h3,.main h3 {
 	padding-top: 2.5%;
 	border-bottom: 2px solid black;
-	width: 60%;
-	margin: 0 auto;
 }
 
 #tagline p, #headerp {
 	text-align: center;
 	padding-top: 0.5%;
 	padding-bottom: 0.5%;
-	width: 60%;
-	margin: 0 auto;
+	
 }
 
 #pcbackground {
@@ -64,13 +66,10 @@ header {
 #pcbuilds {
 	display: table;
 	margin: 0 auto;
-
-
 }
 
 #pcbuilds ul {
 	list-style-type: none;
-
 }
 
 #pcbuilds li img {
