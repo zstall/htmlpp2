@@ -47,16 +47,15 @@ header {
 	margin: 0 auto;
 }
 
-#tagline h3,.main h3 {
+#tagline h3,.main h3, .skills h3 {
 	padding-top: 2.5%;
 	border-bottom: 2px solid black;
 }
 
-#tagline p, #headerp, #skills p {
+#tagline p, #headerp, #skills p, #badgestagline {
 	text-align: center;
 	padding-top: 0.5%;
 	padding-bottom: 0.5%;
-	
 }
 
 #pcbackground {
@@ -68,7 +67,7 @@ header {
 	margin: 0 auto;
 }
 
-#pcbuilds ul, #skillsul {
+#pcbuilds ul, #skillsul, #badgesul {
 	list-style-type: none;
 }
 
@@ -89,6 +88,18 @@ header {
 #skillsbackground {
 	display: table;
 	margin: 10px auto;
+}
 
+#badgesul li {
+	padding-bottom: 3.0%;
+}
+
+#badgesul img {
+	float: left;
+	padding-right: 2.0%;
+}
+
+#badgesul p {
+	text-align: left;
 }
 
