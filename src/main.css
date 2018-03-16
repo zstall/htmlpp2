@@ -43,7 +43,7 @@ header {
 }
 
 .main, #tagline {
-	width: 70%;
+	width: 50%;
 	margin: 0 auto;
 }
 
@@ -85,13 +85,13 @@ header {
 	margin: 0 auto;
 }
 
-#skillsbackground {
+#skillsbackground, #badgesul {
 	display: table;
-	margin: 10px auto;
+	margin: 20px auto;
 }
 
 #badgesul li {
-	padding-bottom: 3.0%;
+	padding-bottom: 8.0%;
 }
 
 #badgesul img {
@@ -101,5 +101,6 @@ header {
 
 #badgesul p {
 	text-align: left;
+
 }
 
