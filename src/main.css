@@ -1,3 +1,8 @@
+/* main.css for zachary stall portfolio page 2 */
+
+@import url(https://fonts.googleapis.com/css?family=Lato);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
+
 html, body, h1, h2, h3, h4, p, div, ul, ol, li {
 	padding: 0;
 	border: 0;
@@ -63,6 +68,7 @@ header {
 }
 
 #pcbuilds {
+	width: 50%;
 	display: table;
 	margin: 0 auto;
 }
@@ -72,7 +78,9 @@ header {
 }
 
 #pcbuilds li img {
-	padding: 10px 5px;
+	padding: 5px 5px;
+	height: 45%;
+	width: 45%;
 }
 
 #skillsul li {
@@ -104,3 +112,136 @@ header {
 
 }
 
+.footer-social-icons {
+	background-color: #2d2d2d;
+	width: 100%;
+	display: block;
+	margin: 0 auto;
+}
+
+.social-icon {
+	color: ##2d2d2d;
+}
+
+.footer-social-icons h3, .footer-social-icons p, #email {
+	color: #fff;
+	padding: 1%;
+	text-align: center;
+}
+
+
+.social-icons li {
+	vertical-align: top;
+	display: inline;
+	margin: .25%;
+}
+
+#sibackground {
+
+}
+
+
+.social-icons a {
+	color: #2d2d2d;
+	text-decoration: none;
+}
+
+.fa-facebook {
+    margin-left: 37%;
+    padding: 1% 1.4%;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #d2d2d2;
+}
+.fa-facebook:hover {
+    background-color: #3d5b99;
+}
+
+.fa-twitter {
+    padding:1% 1.4%;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #d2d2d2;
+}
+.fa-twitter:hover {
+    background-color: #00aced;
+}
+
+.fa-git {
+    padding:1% 1.4%;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #d2d2d2;
+}
+.fa-git:hover {
+    background-color: #eb8231;
+}
+
+.fa-instagram {
+    padding:1% 1.4%;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #d2d2d2;
+}
+.fa-instagram:hover {
+    background-color: #fb3958;
+}
+
+.fa-linkedin {
+    padding:1% 1.4%;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #d2d2d2;
+}
+.fa-linkedin:hover {
+    background-color: #0073a4;
+}
+
+.fa-google {
+	margin-right: 25%;
+    padding:1% 1.4%;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #d2d2d2;
+}
+.fa-google:hover {
+    background-color: #e25714;
+}
+
+/*----------------------------------------------------------
+Media Queries
+------------------------------------------------------------*/
+
+/* <480px for pc builds 
+
+@media screen and (max-width: 900px) {
+	#pcbuilds {
+	display: table;
+	margin: 0 auto;
+	}
+
+	#pcbuilds img {
+		width: 50%;
+		height: 50%;
+	}
+}
+
+*/
