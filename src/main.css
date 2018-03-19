@@ -70,7 +70,7 @@ header {
 #pcbuilds {
 	width: 50%;
 	display: table;
-	margin: 0 auto;
+	margin: 1% auto;
 }
 
 #pcbuilds ul, #skillsul, #badgesul {
@@ -147,8 +147,8 @@ header {
 }
 
 .fa-facebook {
-    margin-left: 37%;
-    padding: 1% 1.4%;
+    margin-left: 41%;
+    padding: .5% .75%;
     -o-transition:.5s;
     -ms-transition:.5s;
     -moz-transition:.5s;
@@ -161,7 +161,7 @@ header {
 }
 
 .fa-twitter {
-    padding:1% 1.4%;
+    padding: .5% .75%;
     -o-transition:.5s;
     -ms-transition:.5s;
     -moz-transition:.5s;
@@ -174,7 +174,7 @@ header {
 }
 
 .fa-git {
-    padding:1% 1.4%;
+    padding: .5% .75%;
     -o-transition:.5s;
     -ms-transition:.5s;
     -moz-transition:.5s;
@@ -187,7 +187,7 @@ header {
 }
 
 .fa-instagram {
-    padding:1% 1.4%;
+    padding: .5% .75%;
     -o-transition:.5s;
     -ms-transition:.5s;
     -moz-transition:.5s;
@@ -200,7 +200,7 @@ header {
 }
 
 .fa-linkedin {
-    padding:1% 1.4%;
+    padding: .5% .75%;
     -o-transition:.5s;
     -ms-transition:.5s;
     -moz-transition:.5s;
@@ -214,7 +214,7 @@ header {
 
 .fa-google {
 	margin-right: 25%;
-    padding:1% 1.4%;
+    padding: .5% .75%;
     -o-transition:.5s;
     -ms-transition:.5s;
     -moz-transition:.5s;
