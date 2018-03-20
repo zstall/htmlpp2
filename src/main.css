@@ -68,7 +68,7 @@ header {
 }
 
 #pcbuilds {
-	width: 50%;
+	max-width: 100%;
 	display: table;
 	margin: 0 auto;
 }
@@ -77,10 +77,22 @@ header {
 	list-style-type: none;
 }
 
+#img-table {
+	
+}
+
+#img1 {
+	padding: 1px;
+}
+
+#img2 {
+	padding: 1px;
+}
+
 #pcbuilds li img {
 	padding: 5px 5px;
-	height: 45%;
-	width: 45%;
+	height: auto;
+	width: 95%;
 }
 
 #skillsul li {
